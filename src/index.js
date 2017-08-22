@@ -2,6 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-import { Button } from 'reactstrap';
+import Login from './Login';
 
-ReactDOM.render(<Button color="danger">Danger!</Button>, document.getElementById('root'));
+ReactDOM.render(<Login/>, document.getElementById('root'));
